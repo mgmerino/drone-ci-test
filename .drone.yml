@@ -5,13 +5,13 @@ name: default
 
 platform:
   os: linux
-  arch: arm64
+  arch: amd64
 
 steps:
 - name: hello
   image: alpine
   commands:
-  - echo uname -a
+  - echo $(uname -a)
  
 trigger:
   branch:
