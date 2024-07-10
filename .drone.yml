@@ -8,4 +8,4 @@ steps:
   commands:
   - echo hello
   - echo world!!
-  - this is yet another test!
+  - this is yet another test
